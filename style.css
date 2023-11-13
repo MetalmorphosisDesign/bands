@@ -1,0 +1,66 @@
+body {
+    background: #F8F8FF;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.newsletter-subscription .col-md-6:first-child {
+    padding: 20px;
+}
+
+.newsletter-subscription .col-lg-6:nth-child(2) {
+    padding: 0;
+}
+
+.newsletter-subscription h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.newsletter-subscription p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.newsletter-subscription form {
+    margin-bottom: 20px;
+}
+
+.newsletter-subscription input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.newsletter-subscription button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.newsletter-subscription img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about-section .col-xl-6:last-child {
+    order: 1;
+}
+
+.about-section .col-xl-6:first-child {
+    order: 2;
+}
+
+
+
+
+

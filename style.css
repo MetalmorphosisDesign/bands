@@ -12,7 +12,7 @@ body {
     /* any other styles you want to apply */
 }
 .nav-link {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Archivo Black', sans-serif !important;
   color: #ffffff;
 }
 

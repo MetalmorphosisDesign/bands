@@ -1,0 +1,140 @@
+/* Base H1 size for XS devices */
+h1 {
+    font-size: 1.3125rem;
+
+    /* Adjusted base size for XS screens */
+    font-weight: 700;
+}
+
+/* Gradually increase font size for smaller screens */
+@media (min-width: 361px) {
+    h1 {
+        font-size: 1.5625rem;
+
+        /* Moderate increase for slightly larger screens */
+    }
+}
+
+/* Adjusting H1 size for SM devices (576px) and up */
+@media (min-width: 576px) {
+    h1 {
+        font-size: 2.125rem;
+
+        /* Adjusted size for SM screens */
+    }
+}
+
+/* Further adjustments for medium breakpoints */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.3125rem;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Further adjustments for larger breakpoints */
+@media (min-width: 992px) {
+    h1 {
+        font-size: 3rem;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Further adjustments for extra large breakpoints */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 3.5rem;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Further adjustments for extra extra large breakpoints */
+@media (min-width: 1400px) {
+    h1 {
+        font-size: 4rem;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Base H1 size for XS devices */
+h2 {
+    font-size: 1.3125rem;
+
+    /* Adjusted base size for XS screens */
+    font-weight: 700;
+}
+
+/* Gradually increase font size for smaller screens */
+@media (min-width: 361px) {
+    h2 {
+        font-size: 1.5625rem;
+
+        /* Moderate increase for slightly larger screens */
+    }
+}
+
+/* Adjusting H1 size for SM devices (576px) and up */
+@media (min-width: 576px) {
+    h2 {
+        font-size: 1.875rem;
+
+        /* Adjusted size for SM screens */
+    }
+}
+
+/* Further adjustments for medium breakpoints */
+@media (min-width: 768px) {
+    h2 {
+        font-size: 2rem;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Further adjustments for larger breakpoints */
+@media (min-width: 992px) {
+    h2 {
+        font-size: 2.625rem;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Further adjustments for extra large breakpoints */
+@media (min-width: 1200px) {
+    h2 {
+        font-size: 2.75rem;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+/* Further adjustments for extra extra large breakpoints */
+@media (min-width: 1400px) {
+    h2 {
+        font-size: 3rem;
+
+        /* Original size for MD screens and up */
+    }
+}
+
+p {
+    font-size: 1rem;
+    font-family: Georgia, serif;
+}
+
+.btn-cta {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+}
+
+.btn-cta:hover {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+}

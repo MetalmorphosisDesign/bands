@@ -1,0 +1,26 @@
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Archivo Black", sans-serif;
+}
+
+h2 {
+    font-size: 52px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.btn-cta {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+}
+
+.btn-cta:hover {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+}

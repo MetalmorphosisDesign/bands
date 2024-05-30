@@ -243,6 +243,15 @@ p {
         /* Adjust font size for devices wider than 360px */
     }
 }
+.footer-link {
+    font-family: 'Archivo Black', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
 
 .newsletter-subscription .col-md-6:first-child {
     padding: 20px;
